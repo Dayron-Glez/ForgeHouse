@@ -13,7 +13,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@fitzone/shared": ["../shared/src"]
+      "@forgehouse/shared": ["../shared/src"]
     }
   },
   "include": ["src"],
