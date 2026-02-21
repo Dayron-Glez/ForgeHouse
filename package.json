@@ -9,7 +9,7 @@
     "backend"
   ],
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "dev:frontend": "npm run dev --workspace=frontend",
     "dev:backend": "npm run dev --workspace=backend",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
@@ -18,9 +18,11 @@
     "build:backend": "npm run build --workspace=backend",
     "seed": "npm run seed --workspace=backend"
   },
-
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "@tailwindcss/vite": "^4.2.0",
+    "@types/node": "^25.3.0",
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.2.0"
   },
   "repository": {
     "type": "git",
@@ -33,5 +35,20 @@
   "bugs": {
     "url": "https://github.com/Dayron-Glez/ForgeHouse/issues"
   },
-  "homepage": "https://github.com/Dayron-Glez/ForgeHouse#readme"
+  "homepage": "https://github.com/Dayron-Glez/ForgeHouse#readme",
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@reduxjs/toolkit": "^2.11.2",
+    "axios": "^1.13.5",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.575.0",
+    "react-hook-form": "^7.71.2",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.0",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6"
+  }
 }
