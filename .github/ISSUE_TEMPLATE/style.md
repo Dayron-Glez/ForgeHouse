@@ -1,20 +1,35 @@
 ---
-name: 🎨 Style / UI
+name: "🎨 Style / UI"
 about: Cambios visuales o de estilos
 title: "[STYLE] "
 labels: style
 ---
 
-## 🎨 Descripción
+## 🎨 Descripcion
 
 Describe el cambio visual o de estilo.
 
-## 📍 Ubicación
+## 📍 Ubicacion
 
-Componente, vista o sección afectada.
+Componente, pagina o seccion afectada.
 
-## ✅ Criterios de aceptación
+- **Feature**: (ej: auth, profile, appointments, bmi, calendar, exercises)
+- **Componente**: (ej: AppointmentCard, BmiCalculatorForm, AppSidebar...)
+- **Layout**: (ej: MainLayout, AuthLayout)
 
-- [ ] Se respeta el diseño actual
-- [ ] Responsive
+## 📱 Responsive
+
+- [ ] Afecta al diseno mobile
+- [ ] Afecta al diseno tablet
+- [ ] Afecta al diseno desktop
+
+## ✅ Criterios de aceptacion
+
+- [ ] Se respeta el sistema de diseno (shadcn/ui + Tailwind CSS 4)
+- [ ] Responsive en todos los breakpoints
 - [ ] Sin romper estilos existentes
+- [ ] Funciona en modo claro y oscuro (si aplica)
+
+## 📸 Capturas
+
+Antes / Despues si aplica.

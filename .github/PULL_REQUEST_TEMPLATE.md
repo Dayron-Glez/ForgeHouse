@@ -1,41 +1,69 @@
-## 📌 Descripción
+## 📋 Descripcion
 
-Describe brevemente qué hace este PR y por qué es necesario.
+Describe brevemente que hace este PR y por que es necesario.
 
 ---
 
 ## 🔗 Issue relacionado
 
-Closes #  
+Closes #
 Relacionado con #
 
 ---
 
-## 🧪 Tipo de cambio
+## 📍 Workspace afectado
 
-Marca lo que aplique:
+- [ ] 🖥 Frontend
+- [ ] ⚙ Backend
+- [ ] 📦 Shared
+- [ ] 🏗 Monorepo / Config general
 
-- [ ] ✨ New feature
-- [ ] 🐛 Bug fix
-- [ ] 🎨 Style / UI
-- [ ] 📚 Documentation
-- [ ] 🔧 Chore / Refactor
+---
+
+## 🏷 Tipo de cambio
+
+- [ ] 🚀 New feature (nueva funcionalidad)
+- [ ] 🐛 Bug fix (correccion de error)
+- [ ] 🎨 Style / UI (cambios visuales)
+- [ ] ♻️ Refactor (mejora de codigo sin cambiar funcionalidad)
+- [ ] 📚 Documentation (documentacion)
+- [ ] 🔧 Chore (config, dependencias, CI/CD)
 
 ---
 
 ## ✅ Checklist
 
-- [ ] El código compila y funciona correctamente
+### General
+
+- [ ] El codigo compila sin errores
 - [ ] He probado los cambios manualmente
 - [ ] No rompe funcionalidad existente
-- [ ] El código sigue las convenciones del proyecto
-- [ ] He actualizado la documentación si aplica
+- [ ] El codigo sigue las convenciones del proyecto
+
+### ⚙ Si toca Backend
+
+- [ ] Los endpoints responden correctamente
+- [ ] Las entidades de TypeORM tienen `type` explicito en cada `@Column()`
+- [ ] Las validaciones con Zod funcionan
+- [ ] El seed sigue funcionando (si se modificaron entidades)
+
+### 🖥 Si toca Frontend
+
+- [ ] Los componentes renderizan correctamente
+- [ ] Es responsive (mobile, tablet, desktop)
+- [ ] Los formularios validan correctamente (React Hook Form + Zod)
+- [ ] El estado de Redux se actualiza correctamente
+
+### 📦 Si toca Shared
+
+- [ ] Los tipos son consistentes con backend y frontend
+- [ ] Los barrel exports (`index.ts`) estan actualizados
 
 ---
 
-## 📸 Evidencias
+## 📸 Capturas
 
-Capturas, GIFs o vídeos si aplica.
+Capturas, GIFs o videos si aplica.
 
 ---
 

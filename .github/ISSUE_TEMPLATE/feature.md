@@ -1,19 +1,34 @@
 ---
-name: 🚀 New Feature
-about: Nueva funcionalidad para el dashboard
+name: "🚀 New Feature"
+about: Proponer una nueva funcionalidad
 title: "[FEATURE] "
 labels: feature
 ---
 
-## 📝 Descripción
+## 📝 Descripcion
 
-Describe la funcionalidad que se quiere añadir.
+Describe la funcionalidad que se quiere agregar.
+
+## 📍 Workspace afectado
+
+- [ ] 🖥 Frontend
+- [ ] ⚙ Backend
+- [ ] 📦 Shared (tipos, enums, constantes)
+- [ ] 🏗 Monorepo / Config general
 
 ## 🎯 Objetivo
 
-¿Qué problema soluciona o qué valor aporta?
+Que problema soluciona o que valor aporta?
 
-## ✅ Criterios de aceptación
+## 🧩 Alcance tecnico
+
+Describe brevemente que archivos o modulos se verian afectados:
+
+- **Backend**: (ej: nueva entidad, nuevo modulo, nuevo endpoint...)
+- **Frontend**: (ej: nuevo feature, nueva pagina, nuevo componente...)
+- **Shared**: (ej: nuevos tipos, nuevos enums...)
+
+## ✅ Criterios de aceptacion
 
 - [ ] Criterio 1
 - [ ] Criterio 2
@@ -21,8 +36,8 @@ Describe la funcionalidad que se quiere añadir.
 
 ## 🧪 Pruebas
 
-¿Cómo se valida que funciona correctamente?
+Como se valida que funciona correctamente?
 
 ## 📝 Notas adicionales
 
-Cualquier contexto extra.
+Cualquier contexto extra, mockups o referencias.

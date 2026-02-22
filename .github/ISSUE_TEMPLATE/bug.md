@@ -1,13 +1,20 @@
 ---
-name: 🐞 Bug
-about: Reportar un error
+name: "🐞 Bug Report"
+about: Reportar un error en el proyecto
 title: "[BUG] "
 labels: bug
 ---
 
-## 🐛 Descripción del bug
+## 🐛 Descripcion del bug
 
 Describe el problema claramente.
+
+## 📍 Workspace afectado
+
+- [ ] 🖥 Frontend
+- [ ] ⚙ Backend
+- [ ] 📦 Shared
+- [ ] 🏗 Monorepo / Config general
 
 ## 🔁 Pasos para reproducir
 
@@ -17,13 +24,23 @@ Describe el problema claramente.
 
 ## ✅ Comportamiento esperado
 
-Qué debería pasar.
+Que deberia pasar.
+
+## ❌ Comportamiento actual
+
+Que esta pasando realmente.
 
 ## 📸 Capturas
 
-Si aplica, añade capturas.
+Si aplica, agrega capturas o GIFs.
 
 ## 💻 Entorno
 
 - Navegador:
 - SO:
+- Node.js:
+- PostgreSQL:
+
+## 📝 Logs / Errores
+
+Pega aqui los logs de la consola del navegador o del terminal del backend si aplica.
